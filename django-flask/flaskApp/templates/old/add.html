@@ -1,0 +1,14 @@
+{%  extends "base.html" %}
+
+{% block main %}
+<h1>About page</h1>
+<form action="/add" method="post">
+    {{ form.csrf_token }}
+    {{ form.title }}
+    {{ form.submit }}
+</form>
+
+{% if title %}
+    <h1>{{ title }}</h1>
+{% endif %}
+{% endblock %}

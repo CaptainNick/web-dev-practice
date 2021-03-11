@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "fullname": "Carl",
+      "position": "dev",
+      "email": "c@gmail.com",
+      "age": "24",
+      "phone": "1234567890",
+      "id": 5
+    },
+    {
+      "fullname": "User",
+      "position": "SDE",
+      "email": "u@gmail.com",
+      "age": "24",
+      "mobile": "1234567890",
+      "id": 6
+    }
+  ]
+}

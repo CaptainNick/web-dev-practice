@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task Manager</title>
+    </head>
+    <body>
+        {% block main %}
+        {% endblock %}
+        <p>My first paragraph.</p>
+
+        <ul>
+            <li><a href="{{ url_for('index') }}">Task</a></li>
+            <li><a href="{{ url_for('add') }}">Add New</a></li>
+        </ul>
+
+
+    </body>
+</html>
